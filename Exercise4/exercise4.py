@@ -1,9 +1,7 @@
 def calc_average_temperature():
-    print('orange')
     Temperature = get_values()
     print("Average temperature:", sum(Temperature)/len(Temperature))
 def calc_min_max_temperature():
-    print('apple')
     Temperature = get_values()
     min_temp = min(Temperature)
     max_temp = max(Temperature)
